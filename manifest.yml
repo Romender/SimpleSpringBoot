@@ -1,0 +1,7 @@
+
+applications:
+- name: SimpleSpringBoot
+  path: build/distributions/SimpleSpringBoot.zip
+  memory: 512m
+  instance: 1
+  buildpack: java_buildpack
